@@ -29,6 +29,9 @@ int main()
             {
 
                 read_from_buffer();
+                            _delay_ms(5000);
+            OLED_SetCursor(6,0);
+            OLED_Printf("it is empty");
 
             }
         }
